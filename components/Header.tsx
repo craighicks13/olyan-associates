@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import SiteNav from './SiteNav';
+import { Button } from './ui/button';
 
 export function Header() {
 	return (

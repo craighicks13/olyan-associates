@@ -8,6 +8,7 @@ export function Footer() {
 					<Icons.copyright className="h-4 w-4" />{' '}
 					<span className="leading-tight">Olyan and Associates</span>
 					<span>{new Date().getFullYear()}</span>
+					<Icons.logo className="w-6 h-6" />
 				</div>
 			</div>
 		</footer>
