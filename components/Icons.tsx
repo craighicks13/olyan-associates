@@ -6,6 +6,7 @@ import {
 	Mail,
 	Loader2,
 	LucideProps,
+	Phone,
 } from 'lucide-react';
 
 export const Icons = {
@@ -15,6 +16,7 @@ export const Icons = {
 	loader: Loader2,
 	mail: Mail,
 	menu: Menu,
+	phone: Phone,
 	logo: ({ ...props }: LucideProps) => (
 		<svg
 			id="olyan-logo"
