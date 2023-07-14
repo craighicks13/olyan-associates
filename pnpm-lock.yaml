@@ -115,6 +115,9 @@ dependencies:
   eslint-config-next:
     specifier: 13.4.9
     version: 13.4.9(eslint@8.44.0)(typescript@5.1.6)
+  lucide-react:
+    specifier: ^0.260.0
+    version: 0.260.0(react@18.2.0)
   next:
     specifier: 13.4.9
     version: 13.4.9(react-dom@18.2.0)(react@18.2.0)
@@ -3320,6 +3323,14 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       yallist: 4.0.0
+    dev: false
+
+  /lucide-react@0.260.0(react@18.2.0):
+    resolution: {integrity: sha512-xN6wuhUlcXeS4GsxZpd2DZp+m1jEZPckuCr90nQAXKRNl63GZ4KshIcGmqJEUqEygmv8Rf99MhcwF3DqBqQ9Dg==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /merge-stream@2.0.0:
