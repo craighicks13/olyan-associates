@@ -1,6 +1,7 @@
-import { LucideProps } from 'lucide-react';
+import { Copy, Copyright, LucideProps } from 'lucide-react';
 
 export const Icons = {
+	copyright: Copyright,
 	logo: ({ ...props }: LucideProps) => (
 		<svg
 			id="olyan-logo"

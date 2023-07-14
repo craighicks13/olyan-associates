@@ -8,11 +8,11 @@ export default function WebsiteLayout({
 }) {
 	return (
 		<>
-			<main className="flex min-h-screen flex-col items-center justify-between">
-				<Header />
-				{children}
-				<Footer />
+			<Header />
+			<main>
+				<div className="p-10">{children}</div>
 			</main>
+			<Footer />
 		</>
 	);
 }
