@@ -15,46 +15,15 @@ export const siteConfig = {
 	},
 	'site-nav': [
 		{
-			title: 'The Accountants',
-			href: '/accountants',
+			title: 'About Us',
+			href: '/about',
 			description:
 				'Learn more about the team at Olyan & Associates and how we can help you and your business.',
-			subsections: [
-				{
-					title: `CPA's`,
-					href: '/accountants/cpas',
-					description:
-						'Learn more about our CPA’s and how they can help you and your business.',
-				},
-				{
-					title: `Staff`,
-					href: '/accountants/staff',
-					description:
-						'Learn more about our staff and how they can help you and your business.',
-				},
-			],
 		},
 		{
 			title: 'Client Services',
 			href: '/services',
 			description: 'Learn more about the services we offer.',
-			subsections: [
-				{
-					title: 'Services Provided',
-					href: '/services/provided',
-					description: 'Learn more about the services we offer.',
-				},
-				{
-					title: 'New Clients',
-					href: '/services/new-clients',
-					description: 'Learn more about the services we offer.',
-				},
-				{
-					title: 'Useful Links',
-					href: '/services/useful-links',
-					description: 'Learn more about the services we offer.',
-				},
-			],
 		},
 		{
 			title: 'Contact Us',
