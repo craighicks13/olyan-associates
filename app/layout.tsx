@@ -1,8 +1,21 @@
 import './globals.css';
+import localFont from 'next/font/local';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
+
+const primaryFont = localFont({
+	variable: '--primary-font',
+	src: 'fonts/Calama_new.ttf',
+	display: 'swap',
+});
+
+const secondaryFont = localFont({
+	variable: '--secondary-font',
+	src: 'fonts/DIN_1451_Std.otf',
+	display: 'swap',
+});
 
 export const metadata: Metadata = {
 	title: 'Olyan and Associates',
@@ -18,7 +31,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<body
-				className={`min-h-screen scroll-smooth bg-background font-sans antialiased ${inter.className}`}
+				className={`min-h-screen scroll-smooth bg-background font-sans antialiased ${primaryFont.variable} ${secondaryFont.variable} ${inter.className}`}
 			>
 				<>{children}</>
 			</body>

@@ -9,9 +9,7 @@ export default function WebsiteLayout({
 	return (
 		<>
 			<Header />
-			<main>
-				<div className="p-10">{children}</div>
-			</main>
+			<main>{children}</main>
 			<Footer />
 		</>
 	);

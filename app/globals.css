@@ -7,6 +7,7 @@
 		@apply border-gray-100;
 	}
 	body {
+		@apply font-primary text-slate-800;
 		font-feature-settings: 'rlig' 1, 'calt' 1;
 		@apply flex h-full flex-col;
 	}
@@ -15,6 +16,6 @@
 		@apply mx-auto h-full w-full max-w-6xl flex-1;
 	}
 	h1 {
-		@apply text-5xl;
+		@apply text-5xl sm:text-7xl font-secondary;
 	}
 }

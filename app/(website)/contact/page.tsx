@@ -4,8 +4,8 @@ import { Container } from '@/components/Container';
 export default function ContactPage() {
 	return (
 		<>
-			<Container>
-				<h1 className="text-3xl font-bold text-center">Contact Us</h1>
+			<Container className="my-24">
+				<h1 className="text-center">Contact Us</h1>
 				<div className="prose max-w-none">
 					<p>
 						To contact us, please fill out the form below and we will

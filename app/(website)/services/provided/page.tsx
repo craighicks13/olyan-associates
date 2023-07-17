@@ -10,7 +10,7 @@ import {
 export default function ServicesProvidedPage() {
 	return (
 		<div>
-			<Container>
+			<Container className="my-24">
 				<div className="mx-auto max-w-2xl md:text-center">
 					<h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
 						Providing services to help you build your business.
