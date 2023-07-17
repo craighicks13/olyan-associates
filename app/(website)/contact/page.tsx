@@ -4,7 +4,6 @@ import { Container } from '@/components/Container';
 import { FadeIn } from '@/components/FadeIn';
 import { Office } from '@/components/Office';
 import { PageIntro } from '@/components/PageIntro';
-import { cn } from '@/lib/utils';
 import Link from 'next/link';
 
 function ContactDetails() {
