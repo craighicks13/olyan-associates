@@ -2,6 +2,7 @@ import './globals.css';
 import localFont from 'next/font/local';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import { Toaster } from '@/components/ui/toaster';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -34,6 +35,7 @@ export default function RootLayout({
 				className={`min-h-screen scroll-smooth bg-background font-sans antialiased ${primaryFont.variable} ${secondaryFont.variable} ${inter.className}`}
 			>
 				<>{children}</>
+				<Toaster />
 			</body>
 		</html>
 	);

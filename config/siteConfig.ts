@@ -19,16 +19,19 @@ export const siteConfig = {
 			href: '/about',
 			description:
 				'Learn more about the team at Olyan & Associates and how we can help you and your business.',
+			subsections: [],
 		},
 		{
 			title: 'Client Services',
 			href: '/services',
 			description: 'Learn more about the services we offer.',
+			subsections: [],
 		},
 		{
 			title: 'Contact Us',
 			href: '/contact',
 			description: 'Get in touch with us today.',
+			subsections: [],
 		},
 	],
 	'footer-nav': [

@@ -35,7 +35,7 @@ export default function SiteNav() {
 					<NavigationMenuList>
 						{siteConfig['site-nav'].map((item) => (
 							<NavigationMenuItem key={item.title}>
-								{item.subsections ? (
+								{item.subsections.length ? (
 									<div>
 										<NavigationMenuTrigger>
 											{item.title}
@@ -43,15 +43,21 @@ export default function SiteNav() {
 
 										<NavigationMenuContent>
 											<ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-												{item.subsections?.map((item) => (
-													<ListItem
-														key={item.title}
-														title={item.title}
-														href={item.href}
-													>
-														{item.description}
-													</ListItem>
-												))}
+												{item.subsections?.map(
+													(item: {
+														href: string;
+														title: string;
+														description: string;
+													}) => (
+														<ListItem
+															key={item.title}
+															title={item.title}
+															href={item.href}
+														>
+															{item.description}
+														</ListItem>
+													)
+												)}
 											</ul>
 										</NavigationMenuContent>
 									</div>
@@ -69,7 +75,7 @@ export default function SiteNav() {
 					</NavigationMenuList>
 				</NavigationMenu>
 				<Button variant="default" className="ml-4">
-					Client Login
+					<Link href="/signin">Client Login</Link>
 				</Button>
 			</div>
 			<div className="md:hidden">
@@ -85,27 +91,32 @@ export default function SiteNav() {
 						<div className="flex justify-between flex-col h-full">
 							<div className="grid gap-4 py-4">
 								{siteConfig['site-nav'].map((item, index) =>
-									item.subsections ? (
+									item.subsections.length ? (
 										<div key={index} className="flex flex-col">
 											<div className="uppercase text-slate-400 font-bold">
 												{item.title}
 											</div>
-											{item.subsections.map((item, index) => (
-												<SheetClose key={index} asChild>
-													<Link
-														href={item.href}
-														className={cn(
-															'pl-5',
-															buttonVariants({
-																variant: 'link',
-																className: `justify-start`,
-															})
-														)}
-													>
-														{item.title}
-													</Link>
-												</SheetClose>
-											))}
+											{item.subsections.map(
+												(
+													item: { href: string; title: string },
+													index
+												) => (
+													<SheetClose key={index} asChild>
+														<Link
+															href={item.href}
+															className={cn(
+																'pl-5',
+																buttonVariants({
+																	variant: 'link',
+																	className: `justify-start`,
+																})
+															)}
+														>
+															{item.title}
+														</Link>
+													</SheetClose>
+												)
+											)}
 										</div>
 									) : (
 										<SheetClose key={index} asChild>
@@ -125,7 +136,7 @@ export default function SiteNav() {
 								)}
 							</div>
 							<Button variant="default" className="ml-4">
-								Client Login
+								<Link href="/signin">Client Login</Link>
 							</Button>
 						</div>
 					</SheetContent>
