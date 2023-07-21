@@ -19,7 +19,7 @@ const secondaryFont = localFont({
 });
 
 export const metadata: Metadata = {
-	title: 'Olyan and Associates',
+	title: 'Olyan & Associates',
 	description: `We are a full service, personal and small business Chartered Professional Accounting firm providing clients with pro-active "Business advice for tomorrow."
 Our diversified client list is made up primarily of companies in the construction, services, high technology, manufacturing, and real estate sectors; and we take a proactive approach to helping our firm's clients throughout all phases of their business development.`,
 };
