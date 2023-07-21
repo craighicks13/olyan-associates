@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Container } from './Container';
 import { FadeIn } from './FadeIn';
 import { Button } from './ui/button';
+import { Phone } from './Office';
 
 export function Hero() {
 	return (
@@ -31,6 +32,9 @@ export function Hero() {
 					<Button>
 						<Link href="/contact">Contact Us</Link>
 					</Button>
+					<div className="-mt-2">
+						<Phone />
+					</div>
 				</div>
 			</Container>
 		</FadeIn>

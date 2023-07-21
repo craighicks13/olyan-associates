@@ -43,31 +43,6 @@ const team = [
 			},
 		],
 	},
-	{
-		title: 'Accounting Staff',
-		people: [
-			{
-				name: 'Debbie Granger',
-				role: 'Accounting Technician',
-				image: { src: imageDebbieGranger },
-			},
-			{
-				name: 'Cassandra Daniels',
-				role: 'Accounting Technician',
-				image: { src: imageGenericImage },
-			},
-			{
-				name: 'Darren Sia',
-				role: 'Accounting Technician',
-				image: { src: imageGenericImage },
-			},
-			{
-				name: 'Kayla Olyan',
-				role: 'Office Manager',
-				image: { src: imageKaylaOlyan },
-			},
-		],
-	},
 ];
 
 function Team() {

@@ -8,7 +8,7 @@ export function Footer() {
 				<div className="flex items-center gap-1 text-slate-500 font-secondary text-xl">
 					<Icons.copyright className="h-4 w-4" />{' '}
 					<span className="leading-tight pt-2">
-						Olyan and Associates
+						Olyan & Associates
 					</span>
 					<span className="pt-2">{new Date().getFullYear()}</span>
 					<Icons.logo className="w-6 h-6" />

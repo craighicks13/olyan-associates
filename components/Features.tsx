@@ -11,32 +11,34 @@ import backgroundImage from '@/images/background-features.jpg';
 const features = [
 	{
 		title: 'People Matter Most',
-		description: 'At OCA, relationships are our bottom line.',
+		description:
+			'At Olyan & Associates, relationships are our bottom line.',
 		copy: (
 			<>
 				<p>
-					At OCA, relationships are our bottom line. To us, accounting
-					goes beyond numbers. Building and maintaining trust is key
-					to everything that we do. We act with integrity and truly
-					care to develop a hands-on, personalized experience, putting
-					our clients on the right path, providing a deep yet big
-					picture perspective. We are vigilant at what we do and work
-					with you to carefully analyze your numbers so that you can
-					focus on reaching your potential, without doubt. We are in
-					constant contact with you so that you can rest assured
-					knowing your accounting is in good hands, is done well and
-					is done right. Your success is our success.
+					At Olyan & Associates, relationships are our bottom line. To
+					us, accounting goes beyond numbers. Building and maintaining
+					trust is key to everything that we do. We act with integrity
+					and truly care to develop a hands-on, personalized
+					experience, putting our clients on the right path, providing
+					a deep yet big picture perspective. We are vigilant at what
+					we do and work with you to carefully analyze your numbers so
+					that you can focus on reaching your potential, without
+					doubt. We are in constant contact with you so that you can
+					rest assured knowing your accounting is in good hands, is
+					done well and is done right. Your success is our success.
 				</p>
 				<p>
-					At OCA, we are truly invested in you. We take a partnership
-					approach and strongly believe it is our duty to protect
-					individuals and businesses, and ensure you feel confident to
-					carry on with your business matters. We strive to provide
-					accounting solutions that are custom to your business. We
-					are an aligned partner who takes the time to learn about
-					your needs and wants, and provide you with strategic
-					consulting advice so that you can feel at ease and focus on
-					taking your business and your life to the next level.
+					At Olyan & Associates, we are truly invested in you. We take
+					a partnership approach and strongly believe it is our duty
+					to protect individuals and businesses, and ensure you feel
+					confident to carry on with your business matters. We strive
+					to provide accounting solutions that are custom to your
+					business. We are an aligned partner who takes the time to
+					learn about your needs and wants, and provide you with
+					strategic consulting advice so that you can feel at ease and
+					focus on taking your business and your life to the next
+					level.
 				</p>
 			</>
 		),
@@ -48,12 +50,12 @@ const features = [
 		copy: (
 			<>
 				<p>
-					At OCA we are skilled at analyzing your needs and take the
-					time to understand all aspects of your life to ensure you
-					minimize tax consequences and maximize tax savings. We value
-					new ideas, new technology, continuous education, and new
-					ways to think about business. We work with you to put you in
-					a position to make you successful.
+					At Olyan & Associates we are skilled at analyzing your needs
+					and take the time to understand all aspects of your life to
+					ensure you minimize tax consequences and maximize tax
+					savings. We value new ideas, new technology, continuous
+					education, and new ways to think about business. We work
+					with you to put you in a position to make you successful.
 				</p>
 				<p>
 					We take a holistic yet meticulous, strategic approach to
@@ -63,12 +65,13 @@ const features = [
 					lifestyle you deserve, today and tomorrow.
 				</p>
 				<p>
-					Our team at OCA offers expert guidance. We spend time with
-					you upfront, to review your unique situation. We ensure that
-					you understand the numbers and leave feeling heard and
-					understood. We have been around over 70 years and foster a
-					team of skilled experts driven to provide sound advice. Be
-					confident that with us, you made the right choice.
+					Our team at Olyan & Associates offers expert guidance. We
+					spend time with you upfront, to review your unique
+					situation. We ensure that you understand the numbers and
+					leave feeling heard and understood. We have been around over
+					70 years and foster a team of skilled experts driven to
+					provide sound advice. Be confident that with us, you made
+					the right choice.
 				</p>
 			</>
 		),
@@ -80,23 +83,24 @@ const features = [
 		copy: (
 			<>
 				<p>
-					At OCA, we incorporate the latest technology into our
-					systems and processes in order to simplify your life –
-					providing you with a seamless, intimate experience. Since
-					the 1940’s, being forward-thinking has been a part of our
-					company’s DNA, instilled in us by our founder. It is part of
-					our heritage, lineage and belief system. We understand that
-					change is inevitable in all aspects of life, and in the
-					world of accounting, we embrace change and are at the
-					forefront of this movement. We are pro-active and
+					At Olyan & Associates, we incorporate the latest technology
+					into our systems and processes in order to simplify your
+					life – providing you with a seamless, intimate experience.
+					Since the 1940’s, being forward-thinking has been a part of
+					our company’s DNA, instilled in us by our founder. It is
+					part of our heritage, lineage and belief system. We
+					understand that change is inevitable in all aspects of life,
+					and in the world of accounting, we embrace change and are at
+					the forefront of this movement. We are pro-active and
 					avant-garde, constantly raising the bar in our field.
 				</p>
 				<p>
 					We implement real-time systems that offer you protection.
 					The current accounting profession lives 3-6 months in the
-					past; at OCA we strive to be only 3-6 days in the past due
-					to our ability and foresight to automate accounting work, by
-					embracing the latest technological trends in the industry.
+					past; at Olyan & Associates we strive to be only 3-6 days in
+					the past due to our ability and foresight to automate
+					accounting work, by embracing the latest technological
+					trends in the industry.
 				</p>
 				<p>
 					We are forward-thinking and offer guidance that is just
