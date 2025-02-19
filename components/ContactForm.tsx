@@ -83,7 +83,7 @@ export default function ContactForm() {
 	};
 
 	const submitEnquiryForm = async (data: SubmitData) => {
-		const res = await fetch('/contact/send', {
+		const res = await fetch('/api/contact', {
 			method: 'POST',
 			headers: {
 				Accept: 'application/json, text/plain, */*',

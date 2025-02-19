@@ -57,6 +57,7 @@ export default function ContactPage() {
 			<Container className="my-24 sm:mt-32 lg:mt-40">
 				<div className="grid grid-cols-1 gap-x-8 gap-y-24 lg:grid-cols-2">
 					<ContactDetails />
+					{/* //TODO: connect the form to an email sending service ... it'll go to Jay's email */}
 					<ContactForm />
 				</div>
 			</Container>

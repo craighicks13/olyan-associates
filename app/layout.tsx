@@ -3,6 +3,7 @@ import localFont from 'next/font/local';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Toaster } from '@/components/ui/toaster';
+import { ReCaptchaProvider } from '@/components/Providers/ReCaptchaProvider';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -34,7 +35,9 @@ export default function RootLayout({
 			<body
 				className={`min-h-screen scroll-smooth bg-background font-sans antialiased ${primaryFont.variable} ${secondaryFont.variable} ${inter.className}`}
 			>
-				<>{children}</>
+				<ReCaptchaProvider>
+					<>{children}</>
+				</ReCaptchaProvider>
 				<Toaster />
 			</body>
 		</html>
